@@ -80,7 +80,7 @@ wht_tran <- st_join(transects, wht_ari,
   select(Transect, MEAN_WH_ARI_5, MEAN_WH_ARI_20, MEAN_WH_ARI_100,
          CL95_WH_ARI_5, CL95_WH_ARI_20, CL95_WH_ARI_100)
 
-saveRDS(wht_tran, "wave_art.RDS")
+saveRDS(wht_tran, "data/wave_art.RDS")
 
 #'-----------
 # Wave Height data from 44005 ####
